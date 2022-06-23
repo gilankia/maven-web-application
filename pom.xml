@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://172.31.18.29:8081/repository/ebay-bts-releases/</url>
+	      <name>gilankia Releases Nexus Repository</name>
+	      <url> http:/154.209.204.234:8081/repository/paypal_aut-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://100.24.52.91:4000/repository/ebay-bts-snapshot/</url>
+	      <name>gilankia Snapshot Nexus Repository </name>
+	      <url>http://154.209.204.234:8081/repository/paypal_aut-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
