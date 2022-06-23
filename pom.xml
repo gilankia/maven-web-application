@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>gilankia Releases Nexus Repository</name>
-	      <url> http:/154.209.204.234:8081/repository/paypal_aut-releases/</url>
+	      <url>http://54.209.204.234:8081/repository/paypal-snapshots/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>gilankia Snapshot Nexus Repository </name>
-	      <url>http://154.209.204.234:8081/repository/paypal_aut-snapshot/</url>
+	      <url>http://54.209.204.234:8081/repository/paypal-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
