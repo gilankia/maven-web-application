@@ -6,15 +6,5 @@ node{
     //sh "git clone https://github.com/LandmakTechnology/maven-web-application"
     //bat "git clone https://github.com/LandmakTechnology/maven-web-application"
  } 
- stage('2Test&Build'){
-    sh "${mavenHome}/bin/mvn install"
- } 
  
- stage('5deploy_uat'){
-    deploy adapters: [tomcat9(credentialsId: 'tomcat_credential_2', path: '', url: 'http://54.172.119.97:8080/')], contextPath: null, war: 'target/*war' 
- }
-
- //stage('7deploy_prod'){
-     //deploy adapters: [tomcat9(credentialsId: 'tomcat_credential_2', path: '', url: 'http://54.172.119.97:8080/')], contextPath: null, war: 'target/*war'
- }
 } 
